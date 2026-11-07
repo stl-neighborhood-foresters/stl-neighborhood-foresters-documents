@@ -14,12 +14,14 @@ The proposed reporting should help a staff coordinator or program leader underst
 
 ## Files
 
+The three original Excel workbooks are in the `documents/` folder. The project brief remains at the repository root.
+
 | File | Contents | Records |
 | --- | --- | ---: |
 | [Wire Frame - Code Til Dawn Draft.docx](Wire%20Frame%20-%20Code%20Til%20Dawn%20Draft.docx) | Project goals, proposed screens, metric definitions, geographic rules, handoff checklist, and acceptance tests | Word document |
-| [champions_20261106.xlsx](champions_20261106.xlsx) | Volunteer roster, contact information, summary hours, membership information, and emergency contacts | 116 rows |
-| [activities_20261106.xlsx](activities_20261106.xlsx) | Recorded volunteer participation, dates, hours, activity categories, and opportunity names | 263 rows |
-| [UserActivity_2024-06-23_to_2026-10-25.xlsx](UserActivity_2024-06-23_to_2026-10-25.xlsx) | Tree activity history, tree identifiers, action types, locations, and inventory changes | 9,923 rows |
+| [champions_20261106.xlsx](documents/champions_20261106.xlsx) | Volunteer roster, contact information, summary hours, membership information, and emergency contacts | 116 rows |
+| [activities_20261106.xlsx](documents/activities_20261106.xlsx) | Recorded volunteer participation, dates, hours, activity categories, and opportunity names | 263 rows |
+| [UserActivity_2024-06-23_to_2026-10-25.xlsx](documents/UserActivity_2024-06-23_to_2026-10-25.xlsx) | Tree activity history, tree identifiers, action types, locations, and inventory changes | 9,923 rows |
 
 Counts exclude header rows. Source files are preserved without editing or removing records. Files with `.xlsx` extensions are Excel workbooks even where their worksheet names end in `.csv`.
 
