@@ -151,9 +151,3 @@ Coverage is unavailable until a reliable inventory denominator is supplied. Miss
 5. How should individual tree care outside organized work sessions be reported?
 6. Where can the team obtain the full tree inventory, tree age information, and recorded care needs?
 7. Who will approve definitions and review results before they are used externally?
-
-## Working with this repository
-
-Keep these originals intact as the supplied November 6, 2026 snapshot. Put future exports in clearly dated folders and record their source, export date, and covered period. Work from copies when cleaning data. Avoid including personal information in GitHub issue descriptions, screenshots, or README examples.
-
-The Word document remains the original project brief. This README explains the supplied files and observed limitations; proposed definitions are not a substitute for program approval.
