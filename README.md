@@ -23,13 +23,13 @@ The Word document provides the draft requirements and proposed reporting layout.
 | [Volunteer roster](documents/champions_20261106.xlsx) | Volunteer profiles, membership information, and summary hours. |
 | [Volunteer activities](documents/activities_20261106.xlsx) | Participation records, service dates, hours, activity categories, and opportunity names. |
 | [Tree activity history](documents/UserActivity_2024-06-23_to_2026-10-25.xlsx) | Tree identifiers, care actions, inventory changes, and recorded locations. |
-| [Curated Looker Studio dataset](transformed-data/STL_Foresters_Looker_Studio_Data.xlsx) | De-identified reporting tables with standardized dates, geographic assignments, species labels, and review flags. |
+| [Curated Looker Studio dataset](transformed-data/transformed%20data.xlsx) | De-identified reporting tables with standardized dates, geographic assignments, species labels, and review flags. |
 
 The original Excel workbooks are stored in `documents/`. The curated workbook is stored separately in `transformed-data/`. All four source files are retained in their original form.
 
 ## Curated reporting dataset
 
-The [curated workbook](transformed-data/STL_Foresters_Looker_Studio_Data.xlsx) contains three worksheets:
+The [curated workbook](transformed-data/transformed%20data.xlsx) contains three worksheets:
 
 | Worksheet | Contents |
 | --- | --- |
