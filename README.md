@@ -2,7 +2,7 @@
 
 Project documentation and source data for volunteer participation and tree-care reporting in Google Looker Studio.
 
-This repository contains the original project brief and three Excel exports provided for the November 6, 2026 Code Til Dawn session. It supports requirements review, data preparation, and agreement on reporting definitions. Application source code and dashboard assets are outside the scope of this repository.
+This repository contains the original project brief and three Excel exports provided for the November 6, 2026 Code Til Dawn session, together with a curated reporting workbook. It supports requirements review, data preparation, and agreement on reporting definitions. Application source code and dashboard assets are outside the scope of this repository.
 
 ## Reporting objectives
 
@@ -23,8 +23,25 @@ The Word document provides the draft requirements and proposed reporting layout.
 | [Volunteer roster](documents/champions_20261106.xlsx) | Volunteer profiles, membership information, and summary hours. |
 | [Volunteer activities](documents/activities_20261106.xlsx) | Participation records, service dates, hours, activity categories, and opportunity names. |
 | [Tree activity history](documents/UserActivity_2024-06-23_to_2026-10-25.xlsx) | Tree identifiers, care actions, inventory changes, and recorded locations. |
+| [Curated Looker Studio dataset](transformed-data/STL_Foresters_Looker_Studio_Data.xlsx) | De-identified reporting tables with standardized dates, geographic assignments, species labels, and review flags. |
 
-The Excel workbooks are stored in `documents/`. All four source files are retained in their original form.
+The original Excel workbooks are stored in `documents/`. The curated workbook is stored separately in `transformed-data/`. All four source files are retained in their original form.
+
+## Curated reporting dataset
+
+The [curated workbook](transformed-data/STL_Foresters_Looker_Studio_Data.xlsx) contains three worksheets:
+
+| Worksheet | Contents |
+| --- | --- |
+| Volunteer participation | 263 participation records with anonymous volunteer IDs, recorded hours, activity categories, and provisional neighborhood assignments. |
+| Tree activity | 9,923 action records with tree IDs, dates, recorded species, neighborhood and ward assignments, completed-care indicators, and potential-duplicate flags. |
+| Field guide | Field definitions, source references, transformation rules, reporting limitations, and reference totals. |
+
+Connect the two reporting worksheets as separate Looker Studio data sources. The Field guide is reference documentation, not a chart data source.
+
+Personal contact details, birth dates, emergency contacts, volunteer names and aliases, home addresses, and exact tree coordinates are excluded from the curated workbook. Potentially duplicated records are flagged and retained. Completed-care categories and event-name-based volunteer neighborhood assignments remain provisional. Species labels reflect the recorded Common Name values and have not been reconciled to a botanical taxonomy.
+
+The workbook is a static reporting snapshot. It does not establish live synchronization with the original systems. Record IDs identify source rows within this snapshot and are not verified persistent identifiers from those systems.
 
 ## Dataset overview
 
